@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1faee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    font-size: large;
+}
+
+.head-container {
+    background-color: #e63946 ; 
+    color: white; 
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.calculator-container {
+    margin-top: 10px;
+    background-color: #e63946;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    border-color: grey;
+    color: white; 
+}
+
+
+.area-container{
+    background-color: beige;
+    margin-top: 10px;
+    text-align: left;
+    color: #e63946; 
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 475px;
+}
+
+.area-container label,
+.area-container input,
+.area-container button,
+.area-container  p {
+    margin-left: 10px;
+}
+
+.perimeter-container{
+    background-color: beige;
+    text-align: left;
+    border-radius: 8px;
+    color: #e63946; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 475px;
+}
+
+.perimeter-container label,
+.perimeter-container input,
+.perimeter-container button,
+.perimeter-container p {
+    margin-left: 10px;
+}
+
+
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.square-image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: 081928833;
+    border: 2px solid #e63946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e63946;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
